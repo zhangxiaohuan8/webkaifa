@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 
 export default class Todoing extends Component {
-    delItem(idx,e){
-        this.props.del(idx);
-    }
     render() {
         var {todo} = this.props;
         return (
